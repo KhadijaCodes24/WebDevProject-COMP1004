@@ -10,4 +10,4 @@ A 3 page website divided into the following sub-pages:
 → Includes playwright tests for all 3 webpages.  
 
 ### Note
-→ Go to "Additional Work" for details on accessibility, reponsive design and details on playwright tests.  
+→ Go to "Additional work" file for details on accessibility, reponsive design and details on playwright tests.  
