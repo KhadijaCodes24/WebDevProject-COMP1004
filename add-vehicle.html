@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<!--Content the user does not see-->
+<head>
+    <meta charset="utf-8" />
+    <title>Add a Vehicle</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="scriptAddAVehicle.js"></script>
+</head>
+
+<body class="container" id="container">
+    <!--Header-->
+    <header>
+        <h1>Add a Vehicle</h1>
+        <nav>
+            <ul class="flex-container">
+                <li><a href="people-search.html" >People search</a></li>
+                <li><a href="vehicles-search.html" >Vehicle search</a></li>
+                <li>Add a vehicle</li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!--Side Bar-->
+    <aside>
+        <img src="logo.jpg" width="100" height="100" alt="company logo">
+    </aside>
+
+    <main>
+        <form id="AddVehicle">
+            <p>
+              <label for="owner">Owner Name</label>
+              <input type="text" name="Name" id="owner" required />
+            </p>
+            <p>
+                <label for="rego">Registration Number</label>
+                <input type="text" name="VehicleID" id="rego"/>
+            </p>
+            <p>
+                <label for="make">Make</label>
+                <input type="text" name="Make" id="make"/>
+            </p>
+            <p>
+              <label for="model">Model</label>
+              <input type="text" name="Model" id="model"/>
+            </p>
+            <p>
+              <label for="colour">Colour</label>
+              <input type="text" name="Colour" id="colour"/>
+            </p>
+            <p>
+                <button type="submit" id="OwnerSearch" disabled>Check owner</button>
+            </p>
+        </form>
+        <div class="message" id="message"></div> <!--check this-->
+        <div class="results" id="owner-results"></div>
+
+        <!--New Owner Form-->
+        <form id="newOwner">
+          <p><strong>Enter details for the new Owner:</strong></p>
+          <p>
+              <label for="name">Owner Name</label>
+              <input type="text" name="Name" id="name"/>
+          </p>
+          <p>
+              <label for="address">Address</label>
+              <input type="text" name="address" id="address"/>
+          </p>
+          <p>
+              <label for="dob">Date of Birth</label>
+              <input type="text" name="dob" id="dob"/>
+          </p>
+          <p>
+            <label for="license">License Number</label>
+            <input type="license" name="license" id="license"/>
+          </p>
+          <p>
+            <label for="expire">License Expiry</label>
+            <input type="expire" name="expire" id="expire"/>
+          </p>
+          <p>
+              <button type="submit" id="addOwner">Add owner</button>
+              <button type="submit" id="addVehicle">Add Vehicle</button>
+          </p>
+        </form>
+        <div class="message" id="message-owner"></div>
+        <div class="message" id="message-vehicle"></div>
+    </main>
+
+    <!--Footer-->
+    <footer>
+    <p>Khadija Amin - Psyka6 </p>
+    </footer>
+</body>
+</html>
+
