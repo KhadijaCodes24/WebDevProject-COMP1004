@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<!--Content the user does not see-->
+<head>
+    <meta charset="utf-8" />
+    <title>People Search</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="scriptPeopleSearch.js"></script>
+</head>
+
+<body class="container" id="container">
+    <!--Header-->
+    <header>
+        <h1> People Search </h1>
+        <nav>
+            <ul class="flex-container" >
+                <li>People search</li>
+                <li><a href="vehicles-search.html" >Vehicle search</a></li>
+                <li><a href="add-vehicle.html" >Add a vehicle</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!--Side Bar-->
+    <aside>
+        <img src="logo.jpg" width="100" height="100" alt="company logo">
+    </aside>
+
+    <main>
+        <form id="PeopleSearch">
+            <p>
+                <label for="name">Search by driver name</label>
+                <input type="text" name="name" id="name" />
+            </p>
+            <p>
+                <label for="license">Search by driving license number</label>
+                <input type="text" name="license_number" id="license" />
+            </p>
+            <p>
+                <button type="submit" >Submit</button>
+            </p>
+            <div class="message" id="message"></div>
+            <div class="results" id="results"></div>
+        </form>
+    </main>
+    <!--Footer-->
+    <footer>
+    <p>Khadija Amin - Psyka6 </p>
+    </footer>
+</body>
+</html>
+
