@@ -1,7 +1,7 @@
 import { createClient } from
 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
 // Create a single supabase client for interacting with your database
-const supabase = createClient('https://qaonyijzkauyijfrskop.supabase.co','eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFhb255aWp6a2F1eWlqZnJza29wIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDQxOTE4OTMsImV4cCI6MjA1OTc2Nzg5M30.gaiY_X5czj1c-eOafS5mrAoEOWzwaY2kNs_x5kOrlW0')
+const supabase = // commented out for security
 const form = document.querySelector('#VehicleSearch') 
 const resultsContainer = document.getElementById('results');
 const message=document.getElementById('message');
@@ -61,6 +61,7 @@ form.addEventListener('submit', async (event) => { // waits for user to click su
             resultsContainer.appendChild(card);
         });
     }
+
 
 
 
