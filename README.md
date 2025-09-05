@@ -1,4 +1,4 @@
-# WebDevProject-COMP1004
+# Web Development Project
 A 3 page website divided into the following sub-pages:  
 🔍 Search for vehicles  
 👤 Search for people  
